@@ -11,11 +11,13 @@ You can install Them via Various installers.
 
 I recommend xampp (This is cross-platform).
 
-You can also choose wamp - for Windows.
+You can also choose 
 
-               mamp - for Mac OS.
+  wamp - for Windows.
+
+  mamp - for Mac OS.
                
-               lamp - for Linux.
+  lamp - for Linux.
                
 After installing any one of them . Start the Apache Server and go to the Directory which contains the index.php, 
 The application will automatically start.
