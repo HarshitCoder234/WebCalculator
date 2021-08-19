@@ -33,26 +33,26 @@
 
                     if ($action == "plus") {
                         $result = $n1 + $n2;
-                        echo "<h1>$n1 + $n2 =";
+                        echo "<h2>$n1 + $n2 = ";
                     }
                     elseif ($action == "minus") {
                         $result = $n1 - $n2;
-                        echo "<h1>$n1 - $n2 =";
+                        echo "<h2>$n1 - $n2 = ";
                     }
                     elseif ($action == "star") {
                         $result = $n1 * $n2;
-                        echo "<h1>$n1 * $n2 =";
+                        echo "<h2>$n1 * $n2 = ";
                     }
                     elseif($action == "slash" and $n2 == 0) {
-                        $result = "Zero Division Error : Divisor should not be Zero";
-                        echo "<h1>";
+                        $result = "Zero Division Error : Division By Zero Not Possible";
+                        echo "<h2>";
                     }
                     else {
                         $result = $n1 / $n2;
-                        echo "<h1>$n1 / $n2 =";
+                        echo "<h2>$n1 / $n2 = ";
                     }
 
-                    echo "$result</h1>";
+                    echo "$result</h2>";
                 }
             ?>
         </p>
